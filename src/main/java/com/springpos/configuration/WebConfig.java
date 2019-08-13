@@ -21,7 +21,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 @EnableTransactionManagement
 @ComponentScan("com.springpos")
-@EnableJpaRepositories
 public class WebConfig implements WebMvcConfigurer {
 
     static{

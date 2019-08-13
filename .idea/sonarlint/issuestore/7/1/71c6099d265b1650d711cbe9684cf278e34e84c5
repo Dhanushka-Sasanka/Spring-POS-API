@@ -1,0 +1,5 @@
+
+qsquid:UselessImportCheck"ARemove this unused import 'org.hibernate.id.IdentifierGenerator'.(‹£κ•ωÿÿÿÿ8Ω®µΘ-
+jsquid:UselessImportCheck":Remove this unused import 'org.hibernate.id.Configurable'.(π΅θωÿÿÿÿ8Ω®µΘ-
+¨%squid:RedundantThrowsDeclarationCheck#"kRemove the declaration of thrown exception 'org.hibernate.HibernateException' which is a runtime exception.(Σ°οεωÿÿÿÿ8Λ‹’µΘ-
+¦%squid:RedundantThrowsDeclarationCheck)"iRemove the declaration of thrown exception 'org.hibernate.MappingException' which is a runtime exception.(νθ‰¥ύÿÿÿÿ8Λ‹’µΘ-

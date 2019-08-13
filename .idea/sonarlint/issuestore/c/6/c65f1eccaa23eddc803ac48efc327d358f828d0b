@@ -1,0 +1,5 @@
+
+…squid:UselessImportCheck"URemove this unused import 'org.springframework.transaction.annotation.Transactional'.(ðùçøùÿÿÿÿ8ô¦ŸÀÈ-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Ó¥ÿí8Â‡˜ÀÈ-
+ƒsquid:UselessImportCheck"SRemove this unused import 'org.springframework.transaction.annotation.Propagation'.(èª¡Çûÿÿÿÿ8ô¦ŸÀÈ-

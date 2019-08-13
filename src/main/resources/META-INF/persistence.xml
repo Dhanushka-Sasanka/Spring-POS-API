@@ -1,0 +1,28 @@
+
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0">
+
+<persistence-unit name="springpos" transaction-type="RESOURCE_LOCAL">
+
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+
+    <class>com.springpos.entity.CustomerEntity</class>
+    <class>com.springpos.entity.ItemEntity</class>
+    <class>com.springpos.entity.OrderEntity</class>
+    <class>com.springpos.entity.OrderDetailEntity</class>
+
+    <properties>
+        <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/SpringPOS?createDatabaseIfNotExist=true"/>
+        <property name="javax.persistence.jdbc.user" value="root"/>
+        <property name="javax.persistence.jdbc.password" value="1234"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
+        <property name="hibernate.hbm2ddl.auto" value="update"/>
+        <property name="hibernate.globally_quoted_identifiers" value="true"/>
+        <property name="hibernate.show_sql" value="true"/>
+        <property name="hibernate.format_sql" value="true"/>
+    </properties>
+
+</persistence-unit>
+
+</persistence>
